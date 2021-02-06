@@ -10,6 +10,14 @@
 // Then, I created a branch called 'lesson-1', using the git cmd: git branch lesson-1
 // -and checkout to that branch using git cmd: git checkout lesson-1
 // tips: to check all git branches, use: git branch -a
+// run the git cmd: git status
+// -to check untracked and modified files
+// run git cmd: git add .
+// -to add main.dart file to staging area
+// tips: to remove file from staging area, run: git rm --cached main.dart
+// tips: files must be added to staging area before you can commit changes
+// Then run: git commit -m 'commit msg here'
+// -then run: git log --oneline, to check commits history
 
 void main() {
   print('Hello world');
